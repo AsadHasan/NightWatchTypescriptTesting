@@ -1,0 +1,22 @@
+{
+  "name": "nightwatchtypescript",
+  "version": "1.0.0",
+  "description": "Basic nightwatch project made using typescript",
+  "scripts": {
+    "test": "npx tsc && npx nightwatch"
+  },
+  "author": "Asad Hasan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/nightwatch": "^0.9.12",
+    "nightwatch": "^1.0.19"
+  },
+  "devDependencies": {
+    "chromedriver": "^74.0.0",
+    "tsc": "^1.20150623.0",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-sonarts": "^1.9.0",
+    "typescript": "^3.4.5"
+  }
+}

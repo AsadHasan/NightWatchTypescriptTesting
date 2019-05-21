@@ -1,0 +1,7 @@
+.sonarlint
+node_modules
+chromedriver.log
+PageObjects/**/*.js
+PageObjects/**/*.map
+Tests/**/*.js
+Tests/**/*.maptests_output
